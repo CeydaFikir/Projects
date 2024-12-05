@@ -1,0 +1,58 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7; /* Light gray background */
+    margin-bottom: 60px; /* Add space for footer */
+}
+
+/* Navbar Styling */
+.navbar {
+    background-color: #6a4c9c; /* Purple background */
+}
+
+.navbar-brand {
+    color: white !important;
+    font-weight: bold;
+}
+
+/* Table Styling */
+.table {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.table th, .table td {
+    text-align: center;
+    vertical-align: middle;
+    padding: 12px 15px;
+}
+
+.table th {
+    background-color: #6a4c9c; /* Purple header */
+    color: white;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: #f9f9f9; /* Light gray rows */
+}
+
+/* Button Styling */
+.btn {
+    padding: 8px 15px;
+    border-radius: 5px;
+}
+
+.btn-warning {
+    background-color: #ffb84d;
+}
+
+.btn-danger {
+    background-color: #e74c3c;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #333;
+    color: white;
+}
